@@ -522,6 +522,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 24px;
 }
 
 .footer-subscribe {
@@ -570,7 +571,6 @@ img {
   cursor: pointer;
   border: none;
   padding: 8px 24px;
-  gap: 16px;
   transition: background-color var(--transition);
 }
 
@@ -583,6 +583,7 @@ img {
 
 .footer-icon-but {
   fill: var(--background-color);
+  margin-left: 16px;
 }
 
 /*--Backdrop--*/
@@ -669,7 +670,7 @@ img {
   letter-spacing: 0.04em;
   color: var(--light-slate-color);
   margin-bottom: 4px;
-  display: inline-block;
+  display: block;
 }
 
 .input-wrap {
@@ -709,21 +710,11 @@ img {
   margin-bottom: 16px;
 }
 
-.modal-comment {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.04em;
-  color: var(--light-slate-color);
-  margin-bottom: 4px;
-  display: block;
-}
-
 .modal-textarea {
   width: 100%;
   height: 120px;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -752,7 +743,7 @@ img {
 
 .check-text {
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--light-slate-color);
   display: flex;
