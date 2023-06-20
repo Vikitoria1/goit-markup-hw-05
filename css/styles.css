@@ -751,14 +751,10 @@ img {
   margin-bottom: 24px;
 }
 
-.check-svg {
-  display: inline-flex;
-}
-
 .check-text span {
   width: 16px;
   height: 16px;
-  display: block;
+  display: inline-flex;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px;
