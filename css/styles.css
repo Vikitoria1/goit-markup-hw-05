@@ -751,6 +751,10 @@ img {
   margin-bottom: 24px;
 }
 
+.check-svg {
+  display: inline-flex;
+}
+
 .check-text span {
   width: 16px;
   height: 16px;
@@ -761,7 +765,6 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  display: inline-flex;
   transition: background-color var(--transition), border var(--transition),
     fill var(--transition);
 }
